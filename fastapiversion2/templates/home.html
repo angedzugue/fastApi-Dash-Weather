@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}bonjour Teccart a rcw 1002 
+<div class="info-box">
+    <h2>aujoudhi est {{info.date}} et maintenant est {{info.time}} </h2>
+    <p>information de meteo</p>
+    <p>{{info.weather.city}}</p>
+    <p>la temperature est {{info.weather.temperature}} celsius</p>
+    <p> description : {{info.weather.description}}</p>
+</div>
+
+
+{% endblock %}
+
+
